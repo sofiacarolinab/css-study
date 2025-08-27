@@ -14,4 +14,4 @@
 - organização das divs e seções
 
 ## conclusão
-foi tudo feito bem rápido (no meu tempo) e pelo tempo x resultado foi um bom estudo :) 🍃
+foi tudo feito bem rápido (no meu tempo) e pelo **tempo x resultado** foi um bom estudo :) 🍃
