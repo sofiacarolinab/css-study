@@ -1,0 +1,251 @@
+body {
+  min-height: 100%;
+  margin: 0;
+  /* padding: 0 20px; */
+  background: #37353e;
+  background: linear-gradient(
+    81deg,
+    rgba(55, 53, 62, 1) 0%,
+    rgba(113, 90, 90, 1) 52%,
+    rgba(218, 211, 211, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /* testes */
+  /* cursor: url(files/Magic\ Wand\ Normal\ Select.cur), auto; */
+}
+
+#center {
+  /* center */
+  align-items: center;
+  /* center */
+}
+
+.corpo {
+  background: #ffffff;
+  padding: 40px 60px 40px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 1000px;
+  /* height: 500px; */
+  min-height: 80vh;
+  max-width: 1000px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+
+  margin: 30px auto; /* <-- centraliza horizontalmente */
+
+  position: relative;
+}
+
+/* config geral */
+
+:root {
+  --dark-brown: #37353e;
+  --dark-grey: #44444e;
+  --brown: #715a5a;
+  --light-grey: #d3dad9;
+
+  --light-brown: #b4acac;
+  --cinza: #7b7b7b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Poppins";
+
+  /* cor padrão */
+  color: var(--dark-grey);
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+p,
+ul,
+ol {
+  font-family: "Noto Sans";
+  color: var(--dark-brown);
+  margin: 0;
+
+  /* tamanho da fonte */
+  font-size: 10px;
+}
+
+/* ---------------------------------------------- */
+
+/* ANCHOR header box */
+
+.headerbox {
+  background-color: white;
+  padding: 6px;
+}
+
+.headerbox p {
+  font-family: "noto sans";
+  margin: 0; /* remove margens padrão */
+  text-align: center;
+
+  font-size: 10px;
+  color: #242424;
+}
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ANCHOR footer */
+
+.corpo footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  margin-top: 12px;
+  /* respiro/linha */
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+
+  padding: 0 14px;
+}
+
+footer p {
+  font-size: 10px;
+  color: var(--cinza);
+
+  margin: 0;
+}
+
+footer img {
+  display: block;
+  margin: auto;
+}
+
+#sofia {
+  font-family: "Reenie Beanie";
+  font-size: 12px;
+  color: rgb(165, 165, 165);
+
+  margin: 0 2px;
+}
+
+#sofia a {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--brown);
+  transition: color 300ms ease-out;
+}
+
+#sofia a:hover {
+  color: var(--light-brown);
+}
+
+.textfooter img {
+  display: block;
+  margin-left: auto;
+}
+
+#icon-casa {
+  display: block;
+
+  width: 18px;
+  height: auto;
+  fill: var(--brown);
+  transition: fill 0.2s, transform 0.2s;
+}
+
+.iconfooter a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.iconfooter a:hover #icon-casa {
+  fill: var(--light-brown); /* exemplo */
+  transform: translateY(0px) scale(1.45);
+}
+
+footer div {
+  margin-top: 10px;
+  /* outline: 1px solid yellow; */
+}
+
+.textfooter {
+  min-width: 50%;
+}
+
+.iconfooter {
+  display: flex;
+  align-items: center;
+  min-width: 50%;
+}
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ANCHOR página especial */
+
+body.especial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100svh;
+
+  /* padding: 24px; */
+  background-image: none;
+  background-color: #242424;
+  gap: 8px;
+}
+
+body.especial img {
+  display: block;
+  height: auto;
+  border-radius: 30px;
+}
+
+body.especial p {
+  margin: 0;
+  color: white;
+  font-size: small;
+}
+
+.voltar {
+  display: block;
+  margin-top: 12px;
+  width: 120px;
+  height: 40px;
+
+  background-color: #ffffff;
+  border-radius: 14px;
+  border: 1px solid #cacaca;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: "noto sans";
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.voltar:active {
+  position: relative;
+  top: 1px;
+}
